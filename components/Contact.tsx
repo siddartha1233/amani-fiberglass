@@ -62,52 +62,63 @@ export default function Contact() {
               {/* Contact Items */}
               <div className="mt-10 space-y-6">
 
-                <div className="flex items-center gap-4">
+                {/* Phone */}
+                <div className="flex items-start gap-4">
+
                   <div className="rounded-2xl bg-white/10 p-4">
                     <Phone size={24} />
                   </div>
 
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-sm text-gray-400">
                       Phone
                     </p>
 
-                    <p className="text-lg font-medium">
+                    <p className="text-base font-medium sm:text-lg">
                       +971 50 307 2795
                     </p>
                   </div>
+
                 </div>
 
-                <div className="flex items-center gap-4">
+                {/* Email */}
+                <div className="flex items-start gap-4">
+
                   <div className="rounded-2xl bg-white/10 p-4">
                     <Mail size={24} />
                   </div>
 
-                  <div>
+                  <div className="min-w-0">
+
                     <p className="text-sm text-gray-400">
                       Email
                     </p>
 
-                    <p className="text-lg font-medium">
+                    <p className="break-all text-base font-medium sm:text-lg">
                       amanifiberglass@gmail.com
                     </p>
+
                   </div>
+
                 </div>
 
-                <div className="flex items-center gap-4">
+                {/* Location */}
+                <div className="flex items-start gap-4">
+
                   <div className="rounded-2xl bg-white/10 p-4">
                     <MapPin size={24} />
                   </div>
 
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-sm text-gray-400">
                       Location
                     </p>
 
-                    <p className="text-lg font-medium">
+                    <p className="text-base font-medium sm:text-lg">
                       United Arab Emirates
                     </p>
                   </div>
+
                 </div>
 
               </div>
