@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://amanifiberglass.com"),
-  title: "Amani Fiberglass | Premium Car Wash Trolleys UAE",
+  title: "Car Wash Trolleys | Car Wash Trolleys UAE",
 
   description:
     "Amani Fiberglass specializes in fiberglass car wash trolleys, detailing carts, and custom commercial fiberglass solutions in the UAE.",
