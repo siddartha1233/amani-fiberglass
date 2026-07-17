@@ -55,7 +55,7 @@ export default function Contact() {
               </h3>
 
               <p className="mt-6 leading-relaxed text-gray-400">
-                Contact Amani Fiberglass for premium fiberglass
+                Contact Amani Fiberglass for fiberglass
                 manufacturing solutions designed for UAE commercial use.
               </p>
 
@@ -220,7 +220,7 @@ export default function Contact() {
             </h2>
 
             <p className="mt-2 text-gray-400">
-              Premium fiberglass solutions for UAE commercial use.
+              Fiberglass solutions for UAE commercial use.
             </p>
           </div>
 
