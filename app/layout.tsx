@@ -6,9 +6,11 @@ export const metadata: Metadata = {
   title: "Amani Fiberglass | Premium Car Wash Trolleys UAE",
 
   description:
-    "Amani Fiberglass specializes in premium fiberglass car wash trolleys, detailing carts, and custom commercial fiberglass solutions in the UAE.",
+    "Amani Fiberglass specializes in fiberglass car wash trolleys, detailing carts, and custom commercial fiberglass solutions in the UAE.",
 
   keywords: [
+    "car wash trolley",
+    "car wash trolley UAE ",
     "Fiberglass trolley UAE",
     "Car wash trolley",
     "Fiberglass car wash cart",
@@ -30,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Amani Fiberglass",
     description:
-      "Premium fiberglass car wash trolleys and commercial fiberglass solutions in UAE.",
+      "Fiberglass car wash trolleys and commercial fiberglass solutions in UAE.",
 
     url: "https://amanifiberglass.com",
 

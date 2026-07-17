@@ -34,7 +34,7 @@ export default function About() {
 
           {/* Paragraph */}
           <p className="mt-8 text-lg leading-relaxed text-gray-400">
-            Amani Fiberglass specializes in premium fiberglass car wash trolleys,
+            Amani Fiberglass specializes in fiberglass car wash trolleys,
             detailing carts, and custom fiberglass fabrication designed for
             commercial and industrial environments.
           </p>
@@ -101,7 +101,7 @@ export default function About() {
             <div className="absolute bottom-0 z-10 p-8">
 
               <h3 className="text-3xl font-bold">
-                Premium Fiberglass Manufacturing
+                Fiberglass Manufacturing
               </h3>
 
               <p className="mt-4 text-gray-300">

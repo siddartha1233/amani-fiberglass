@@ -68,7 +68,7 @@ export default function Benefits() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-400">
-            Premium fiberglass solutions engineered for durability,
+            Fiberglass solutions engineered for durability,
             performance, and UAE weather conditions.
           </p>
         </motion.div>

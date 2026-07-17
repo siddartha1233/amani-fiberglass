@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const galleryItems = [
   {
     image: "/images/products/trolley-1.jpeg",
-    title: "Premium Fiberglass Trolley",
+    title: "Fiberglass Trolley",
   },
   {
     image: "/images/products/trolley-2.jpeg",
@@ -73,7 +73,7 @@ export default function Gallery() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-400">
-            Explore our premium fiberglass car wash trolleys
+            Explore our fiberglass car wash trolleys
             and custom commercial solutions.
           </p>
 
