@@ -54,7 +54,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-5xl font-extrabold leading-tight md:text-7xl"
           >
-            Premium Fiberglass
+            
             <span className="block text-gray-400">
               Car Wash Trolleys
             </span>
