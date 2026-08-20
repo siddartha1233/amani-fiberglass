@@ -87,24 +87,59 @@ export default function CarWashTrolleyPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Product",
-            name: "Fiberglass Car Wash Trolley",
-            description:
-              "Professional fiberglass car wash trolley designed for car wash businesses, mobile detailing teams, and commercial vehicle cleaning operations in the UAE.",
-            image: [
-              "https://amanifiberglass.com/images/products/trolley-1.jpeg",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                "@id": "https://amanifiberglass.com/car-wash-trolley/",
+                url: "https://amanifiberglass.com/car-wash-trolley/",
+                name: "Car Wash Trolley | Fiberglass Car Wash Trolley UAE",
+                description:
+                  "Professional fiberglass car wash trolleys designed for car wash businesses, mobile detailing teams, and commercial vehicle cleaning operations in the UAE.",
+                isPartOf: {
+                  "@id": "https://amanifiberglass.com/#website",
+                },
+                about: {
+                  "@type": "Thing",
+                  name: "Car Wash Trolley",
+                },
+              },
+
+              {
+                "@type": "Organization",
+                "@id": "https://amanifiberglass.com/#organization",
+                name: "Amani Fiberglass",
+                url: "https://amanifiberglass.com/",
+                logo: "https://amanifiberglass.com/logo/logo.png",
+              },
+
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://amanifiberglass.com/",
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "Car Wash Trolley",
+                    item: "https://amanifiberglass.com/car-wash-trolley/",
+                  },
+                ],
+              },
+
+              {
+                "@type": "WebSite",
+                "@id": "https://amanifiberglass.com/#website",
+                url: "https://amanifiberglass.com/",
+                name: "Amani Fiberglass",
+                publisher: {
+                  "@id": "https://amanifiberglass.com/#organization",
+                },
+              },
             ],
-            brand: {
-              "@type": "Brand",
-              name: "Amani Fiberglass",
-            },
-            manufacturer: {
-              "@type": "Organization",
-              name: "Amani Fiberglass",
-              url: "https://amanifiberglass.com",
-            },
-            category: "Car Wash Equipment",
-            url: "https://amanifiberglass.com/car-wash-trolley/",
           }),
         }}
       />
