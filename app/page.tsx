@@ -102,8 +102,18 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
+      {/* Products Section */}
       <div id="products" className="mt-32">
-      <Products />
+        <Products />
+
+        <div className="mt-12 text-center">
+          <a
+            href="/car-wash-trolley/"
+            className="inline-block rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition hover:bg-white/10 hover:scale-105"
+          >
+            Explore Car Wash Trolleys
+          </a>
+        </div>
       </div>
 
       {/* Benefits Section */}
