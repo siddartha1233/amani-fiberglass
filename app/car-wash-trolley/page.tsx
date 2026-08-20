@@ -82,6 +82,32 @@ const faqs = [
 export default function CarWashTrolleyPage() {
   return (
     <main className="bg-black text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: "Fiberglass Car Wash Trolley",
+            description:
+              "Professional fiberglass car wash trolley designed for car wash businesses, mobile detailing teams, and commercial vehicle cleaning operations in the UAE.",
+            image: [
+              "https://amanifiberglass.com/images/products/trolley-1.jpeg",
+            ],
+            brand: {
+              "@type": "Brand",
+              name: "Amani Fiberglass",
+            },
+            manufacturer: {
+              "@type": "Organization",
+              name: "Amani Fiberglass",
+              url: "https://amanifiberglass.com",
+            },
+            category: "Car Wash Equipment",
+            url: "https://amanifiberglass.com/car-wash-trolley/",
+          }),
+        }}
+      />
 
       {/* Navigation */}
       <header className="border-b border-white/10">
