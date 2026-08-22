@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amanifiberglass.com"),
+  metadataBase: new URL("https://www.amanifiberglass.com"),
   title: "Car Wash Trolleys | Car Wash Trolleys UAE",
 
   description:
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description:
       "Fiberglass car wash trolleys and commercial fiberglass solutions in UAE.",
 
-    url: "https://amanifiberglass.com",
+    url: "https://www.amanifiberglass.com",
 
     siteName: "Amani Fiberglass",
 
